@@ -1,4 +1,4 @@
-# SezzleOps MCP
+# Sezzle Merchant MCP
 
 An unofficial, experimental, security-focused Model Context Protocol server for safe Sezzle merchant operations, settlement reconciliation, webhook monitoring, and integration diagnostics.
 
@@ -18,7 +18,7 @@ Production-oriented and security-focused design does not mean production readine
 
 > Analyze today’s Sezzle orders, identify uncaptured authorizations and refund mismatches, reconcile the latest settlement, inspect webhook health, and prepare safe actions without executing anything until I approve them.
 
-SezzleOps MCP is not a thin API wrapper. It adds deterministic money validation, mutation previews, explicit approval gates, permission-based tool registration, reconciliation evidence, webhook correlation, Integration Doctor findings, secure support routing, and redacted audit records around the documented Sezzle merchant API.
+Sezzle Merchant MCP is not a thin API wrapper. It adds deterministic money validation, mutation previews, explicit approval gates, permission-based tool registration, reconciliation evidence, webhook correlation, Integration Doctor findings, secure support routing, and redacted audit records around the documented Sezzle merchant API.
 
 ## Features
 
@@ -508,7 +508,7 @@ Prompts are profile-aware and direct the model to collect evidence before interp
 - Authorization event examples and their component schema use two documented shapes; the adapter supports those two shapes only.
 - The upcharge API is marked in development and not available for production, so it is intentionally not exposed.
 - No documented endpoint lists arbitrary current merchant orders. Integration Doctor and reconciliation accept scoped structured records rather than scraping a dashboard.
-- The order report API includes customer fields; SezzleOps removes them from its normalized response.
+- The order report API includes customer fields; Sezzle Merchant MCP removes them from its normalized response.
 - Streamable HTTP is stateless. Durable workflow state belongs in SQLite; multi-node shared storage is not implemented.
 - SQLite data is not application-level encrypted. Use encrypted disks/volumes and platform access controls.
 - OAuth is not bundled. Remote deployments use a configured bearer token and should sit behind a production identity-aware reverse proxy.
