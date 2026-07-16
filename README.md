@@ -203,6 +203,8 @@ Requirements:
 - A Sezzle sandbox merchant account for API-backed testing
 
 ```bash
+git clone https://github.com/onatozmenn/sezzle-merchant-mcp.git
+cd sezzle-merchant-mcp
 npm ci
 npm run build
 npm run inspect-tools

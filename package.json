@@ -7,11 +7,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onatozmenn/sezzleops-mcp.git"
+    "url": "git+https://github.com/onatozmenn/sezzle-merchant-mcp.git"
   },
-  "homepage": "https://github.com/onatozmenn/sezzleops-mcp#readme",
+  "homepage": "https://github.com/onatozmenn/sezzle-merchant-mcp#readme",
   "bugs": {
-    "url": "https://github.com/onatozmenn/sezzleops-mcp/issues"
+    "url": "https://github.com/onatozmenn/sezzle-merchant-mcp/issues"
   },
   "engines": {
     "node": ">=20.0.0"

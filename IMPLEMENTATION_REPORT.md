@@ -134,7 +134,7 @@ No tools were removed. The final count remains 55 because the audit found no uns
 
 ## Container and transport audit
 
-- `docker build -t sezzleops-mcp:local .` passed using Node 20.
+- `docker build -t sezzle-merchant-mcp:local .` passed using Node 20.
 - Image user: `node`; runtime UID: 1000.
 - `/app/data`: owner `node:node`, mode 700.
 - Container started in sandbox/read-only mode without Sezzle credentials.
