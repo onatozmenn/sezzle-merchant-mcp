@@ -44,7 +44,7 @@
     "docker:run": "docker run --rm -i --env-file .env sezzle-merchant-mcp"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@modelcontextprotocol/sdk": "^1.31.0",
     "better-sqlite3": "^12.11.1",
     "csv-parse": "^7.0.1",
     "express": "^5.2.1",
